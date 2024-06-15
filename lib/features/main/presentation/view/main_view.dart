@@ -1,5 +1,4 @@
-import 'package:flutter_triad/core/resources/manager_assets.dart';
-import 'package:flutter_triad/core/resources/manager_colors.dart';
+
 import 'package:flutter_triad/core/resources/manager_sizes_util.dart';
 import 'package:flutter_triad/features/main/presentation/controller/main_controller.dart';
 import 'package:flutter/material.dart';

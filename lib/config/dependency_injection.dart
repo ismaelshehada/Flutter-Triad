@@ -1,5 +1,5 @@
 // Core imports
-import 'package:flutter_triad/core/locale/locale_controller.dart';
+
 import 'package:flutter_triad/features/auth/data/repository_impl/fcm_token_repository_impl.dart';
 import 'package:flutter_triad/features/auth/domain/repository/fcm_token_repository.dart';
 import 'package:flutter_triad/features/auth/presentation/controller/register_controller.dart';
