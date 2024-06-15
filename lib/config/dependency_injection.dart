@@ -125,6 +125,7 @@ initModule() async {
 
 
 
+  // ToDo: implement notifications
   if (_appSettings.getEnableNotifications()) {
     // await initFirebaseNotification();
   }
