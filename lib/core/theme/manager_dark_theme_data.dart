@@ -7,9 +7,6 @@ import '../resources/manager_text_theme_dark.dart';
 ThemeData managerDarkThemeData() {
   return ThemeData.dark().copyWith(
     // TODO: CHECK THIS
-    useMaterial3: true,
-
-    /// main color of the app
     primaryColor: ManagerColors.primaryColor,
     primaryColorLight: ManagerColors.primaryColorLight,
     primaryColorDark: ManagerColors.primaryColorDark,
@@ -18,7 +15,7 @@ ThemeData managerDarkThemeData() {
     disabledColor: ManagerColors.textColor,
 
     splashColor: ManagerColors.greyLight,
-    backgroundColor: ManagerColors.background,
+
     scaffoldBackgroundColor: ManagerColors.primaryColor,
 
     /// AppBar theme

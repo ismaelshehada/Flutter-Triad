@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
         return GetMaterialApp(
           localizationsDelegates: context.localizationDelegates,
           supportedLocales: context.supportedLocales,
-          locale: context.locale,
+          locale: localeSettings.defaultLocale,
           debugShowCheckedModeBanner: false,
           onGenerateRoute: RouteGenerator.getRoute,
           initialRoute: Routes.splashView,

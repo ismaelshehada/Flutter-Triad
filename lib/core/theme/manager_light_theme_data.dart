@@ -6,16 +6,12 @@ import '../resources/manager_text_theme_light.dart';
 
 ThemeData managerLightThemeData() {
   return ThemeData.light().copyWith(
-    useMaterial3: true,
-
-    /// main color of the app
     primaryColor: ManagerColors.primaryColor,
     primaryColorLight: ManagerColors.primaryColorLight,
     primaryColorDark: ManagerColors.primaryColorDark,
     disabledColor: ManagerColors.textColor,
     // this for disabled button color
     splashColor: ManagerColors.greyLight,
-    backgroundColor: ManagerColors.background,
     scaffoldBackgroundColor: ManagerColors.background,
 
     /// AppBar theme

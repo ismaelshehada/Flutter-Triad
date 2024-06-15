@@ -235,5 +235,6 @@
   "youCanNotCancelSubscriptionNow": "You can't delete subscription now",
   "subscriptionAgain": "Subscription Again",
   "thereAreNoNotificationsNow": "There are no notifications now",
-  "resources": "Resources"
+  "resources": "Resources",
+  "home": "Home"
 }

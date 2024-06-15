@@ -4,6 +4,7 @@ import 'package:flutter_triad/core/storage/local/app_settings_prefs.dart';
 import 'package:flutter_triad/routes/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import '../../../../core/locale/locale_controller.dart';
 import '../../../../core/resources/manager_assets.dart';
 import '../../../../core/resources/manager_strings.dart';
 import '../view/widget/out_boarding_item.dart';
@@ -36,6 +37,8 @@ class OutBoardingController extends GetxController {
   @override
   void onInit() {
     super.onInit();
+    LocaleController localeController = LocaleController();
+    localeController.changeLanguage(_appSettingsPrefs.getLocale());
     pageController = PageController();
   }
 

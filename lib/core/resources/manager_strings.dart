@@ -3,6 +3,8 @@ import 'package:easy_localization/easy_localization.dart';
 class ManagerStrings {
   static String get noRouteFound => tr('noRouteFound');
 
+  static String get home => tr('home');
+
   static String get saturday => tr('saturday');
 
   static String get sunday => tr('sunday');
@@ -436,6 +438,6 @@ class ManagerStrings {
   static String get thereAreNoUpcomingReservations =>
       tr('thereAreNoUpcomingReservations');
 
-  static String get thereAreNoNotificationsNow => tr('thereAreNoNotificationsNow');
-
+  static String get thereAreNoNotificationsNow =>
+      tr('thereAreNoNotificationsNow');
 }

@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter_triad/core/extensions/extensions.dart';
 import 'package:flutter_triad/core/storage/local/app_settings_prefs.dart';
 import 'package:flutter/material.dart';
@@ -8,9 +9,12 @@ class LocaleController extends GetxController {
   Locale? locale;
   final AppSettingsPrefs _appSettingsPrefs = instance<AppSettingsPrefs>();
 
+  BuildContext context = Get.context!;
+
   changeLanguage(String langCode) {
     Locale locale = Locale(langCode);
     _appSettingsPrefs.setLocale(langCode);
+    EasyLocalization.of(context)!.setLocale(Locale(langCode));
     Get.updateLocale(locale);
   }
 

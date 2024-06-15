@@ -253,5 +253,6 @@
   "youCanNotCancelSubscriptionNow": "لا يمكنك الغاء الاشتراك الان",
   "subscriptionAgain": "اشتراك مرة أخرى",
   "thereAreNoNotificationsNow": "لا توجد إخطارات الآن",
-  "resources": "الموارد"
+  "resources": "الموارد",
+  "home": "الرئيسية"
 }
